@@ -30,7 +30,7 @@ require_once( 'library/bones.php' ); // if you remove this, bones will break
 	- example custom taxonomy (like categories)
 	- example custom taxonomy (like tags)
 */
-require_once( 'library/custom-post-type.php' ); // you can disable this if you like
+//require_once( 'library/custom-post-type.php' ); // you can disable this if you like
 /*
 3. library/admin.php
 	- removing some default WordPress dashboard widgets
@@ -38,7 +38,7 @@ require_once( 'library/custom-post-type.php' ); // you can disable this if you l
 	- adding custom login css
 	- changing text in footer of admin
 */
-// require_once( 'library/admin.php' ); // this comes turned off by default
+require_once( 'library/admin.php' ); // this comes turned off by default
 /*
 4. library/translation/translation.php
 	- adding support for other languages
@@ -98,8 +98,28 @@ function bones_register_sidebars() {
 		'description' => __( 'The first (primary) sidebar.', 'bonestheme' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h4 class="widgettitle">',
-		'after_title' => '</h4>',
+		'before_title' => '<h3 class="widgettitle">',
+		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		'id' => 'sidebar2',
+		'name' => __( 'Sidebar 2', 'bonestheme' ),
+		'description' => __( 'The second sidebar.', 'bonestheme' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="widgettitle">',
+		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		'id' => 'sidebar3',
+		'name' => __( 'Sidebar 3', 'bonestheme' ),
+		'description' => __( 'The third sidebar.', 'bonestheme' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="widgettitle">',
+		'after_title' => '</h3>',
 	));
 
 	/*
@@ -179,5 +199,21 @@ function bones_wpsearch($form) {
 	return $form;
 } // don't remove this bracket!
 
+
+// Enqueue Typekit 
+function theme_typekit() {
+	    wp_enqueue_script( 'theme_typekit', '//use.typekit.net/xxxxxxx.js');
+	    }
+	    add_action( 'wp_enqueue_scripts', 'theme_typekit' );
+function theme_typekit_inline() {
+	  if ( wp_script_is( 'theme_typekit', 'done' ) ) { ?>
+	    	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	    	<?php }
+	    	}
+	    	add_action( 'wp_head', 'theme_typekit_inline' );
+
+
+// Hide admin bar from frontend
+add_filter('show_admin_bar', '__return_false');
 
 ?>
