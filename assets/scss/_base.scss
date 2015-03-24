@@ -15,6 +15,15 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 // Link fade...
 a {
 	@include transition(all 0.2s ease-in-out);
@@ -795,5 +804,13 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {
+		font-family: $headings-font;
+		font-size: .8em;
+		text-transform: uppercase;
+		a {
+			color: $site-teal;
+			text-decoration: none;
+		}
+	}
 

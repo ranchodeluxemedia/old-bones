@@ -6,7 +6,7 @@
 							<?php base_footer_links(); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved. Handcrafted by <a href="http://ranchodeluxemedia.com">Rancho Deluxe</a> in Nashville, Tennessee.</p>
 
 				</div>
 

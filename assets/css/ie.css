@@ -54,6 +54,13 @@ TOOLS
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+img, object, embed {
+  max-width: 100%;
+  height: auto;
 }
 
 .image-replacement, .ir {
