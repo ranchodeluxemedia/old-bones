@@ -4,24 +4,6 @@
 
 				<div id="inner-content" class="wrap clearfix">
 
-						<div class="subsection cf">
-							<div class="grid-2">
-								<h3>Site Test</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio incidunt aut eveniet, non officiis, quas laudantium minus voluptas vel veniam corporis cupiditate, doloremque atque assumenda.</p>
-								<a href="#" class="btn">Test Link</a>
-							</div>
-							<div class="grid-2">
-								<h3>Site Test</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio incidunt aut eveniet, non officiis, quas laudantium minus voluptas vel veniam corporis cupiditate, doloremque atque assumenda.</p>
-								<a href="#" class="btn">Test Link</a>
-							</div>
-							<div class="grid-2">
-								<h3>Site Test</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio incidunt aut eveniet, non officiis, quas laudantium minus voluptas vel veniam corporis cupiditate, doloremque atque assumenda.</p>
-								<a href="#" class="btn">Test Link</a>
-							</div>
-						</div>
-
 						<div id="main" class="grid-6 first clearfix" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
