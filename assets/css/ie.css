@@ -173,9 +173,9 @@ BUTTONS
 *********************/
 .button, .button:visited {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 1px solid #1b2931;
-  border-top-color: #253a45;
-  border-left-color: #253a45;
+  border: 1px solid #f1432c;
+  border-top-color: #f35c49;
+  border-left-color: #f35c49;
   padding: 4px 12px;
   color: #fff;
   display: inline-block;
@@ -187,23 +187,23 @@ BUTTONS
   margin-bottom: 20px;
   line-height: 21px;
   border-radius: 4px;
-  background-color: #293f4b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#324d5c), to(#293f4b));
-  background-image: linear-gradient(to bottom, #324d5c, #293f4b);
+  background-color: #f36552;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f57a6a), to(#f36552));
+  background-image: linear-gradient(to bottom, #f57a6a, #f36552);
 }
 .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
   color: #fff;
-  border: 1px solid #1b2931;
-  border-top-color: #0e161a;
-  border-left-color: #0e161a;
-  background-color: #20313b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#293f4b), to(#20313b));
-  background-image: linear-gradient(to bottom, #293f4b, #20313b);
+  border: 1px solid #f1432c;
+  border-top-color: #e92910;
+  border-left-color: #e92910;
+  background-color: #f24f3a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f36552), to(#f24f3a));
+  background-image: linear-gradient(to bottom, #f36552, #f24f3a);
 }
 .button:active, .button:visited:active {
-  background-color: #324d5c;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#293f4b), to(#324d5c));
-  background-image: linear-gradient(to bottom, #293f4b, #324d5c);
+  background-color: #f57a6a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f36552), to(#f57a6a));
+  background-image: linear-gradient(to bottom, #f36552, #f57a6a);
 }
 
 .blue-button, .blue-button:visited {
@@ -233,7 +233,7 @@ BUTTONS
   height: 40px;
   padding: 0 25px;
   font: normal 900 10px/40px "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #324d5c;
+  color: #f57a6a;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -253,8 +253,8 @@ BUTTONS
 }
 
 .buttonx:hover, #searchsubmit:hover {
-  background: #324d5c;
-  border-color: #324d5c;
+  background: #f57a6a;
+  border-color: #f57a6a;
   color: #FFF;
 }
 

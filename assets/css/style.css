@@ -584,9 +584,9 @@ BUTTONS
 *********************/
 .button, .button:visited {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 1px solid #1b2931;
-  border-top-color: #253a45;
-  border-left-color: #253a45;
+  border: 1px solid #f1432c;
+  border-top-color: #f35c49;
+  border-left-color: #f35c49;
   padding: 4px 12px;
   color: #fff;
   display: inline-block;
@@ -598,23 +598,23 @@ BUTTONS
   margin-bottom: 20px;
   line-height: 21px;
   border-radius: 4px;
-  background-color: #293f4b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#324d5c), to(#293f4b));
-  background-image: linear-gradient(to bottom, #324d5c, #293f4b);
+  background-color: #f36552;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f57a6a), to(#f36552));
+  background-image: linear-gradient(to bottom, #f57a6a, #f36552);
 }
 .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
   color: #fff;
-  border: 1px solid #1b2931;
-  border-top-color: #0e161a;
-  border-left-color: #0e161a;
-  background-color: #20313b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#293f4b), to(#20313b));
-  background-image: linear-gradient(to bottom, #293f4b, #20313b);
+  border: 1px solid #f1432c;
+  border-top-color: #e92910;
+  border-left-color: #e92910;
+  background-color: #f24f3a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f36552), to(#f24f3a));
+  background-image: linear-gradient(to bottom, #f36552, #f24f3a);
 }
 .button:active, .button:visited:active {
-  background-color: #324d5c;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#293f4b), to(#324d5c));
-  background-image: linear-gradient(to bottom, #293f4b, #324d5c);
+  background-color: #f57a6a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f36552), to(#f57a6a));
+  background-image: linear-gradient(to bottom, #f36552, #f57a6a);
 }
 
 .blue-button, .blue-button:visited {
@@ -644,7 +644,7 @@ BUTTONS
   height: 40px;
   padding: 0 25px;
   font: normal 900 10px/40px "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #324d5c;
+  color: #f57a6a;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -664,8 +664,8 @@ BUTTONS
 }
 
 .buttonx:hover, #searchsubmit:hover {
-  background: #324d5c;
-  border-color: #324d5c;
+  background: #f57a6a;
+  border-color: #f57a6a;
   color: #FFF;
 }
 
@@ -699,7 +699,7 @@ hr {
   padding: 0;
 }
 
-a {
+a, .btn {
   -webkit-transition: all 0.2s ease-in-out;
   -transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -709,11 +709,18 @@ a {
   vertical-align: baseline;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  background-color: #0a0b0a;
+  color: #7f817f;
+  font-size: 100%;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.75;
-  color: #565656;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /********************
@@ -767,13 +774,13 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #324d5c;
+  color: #f57a6a;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #22343e;
+  color: #f2543f;
 }
 a:link, a:visited:link {
   /*
@@ -1200,6 +1207,8 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
+  background: #333644;
+  padding: 2em 0;
   clear: both;
 }
 
@@ -1215,7 +1224,7 @@ view.
 /* end .footer-links */
 .copyright {
   font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .8em;
+  font-size: 10px;
   text-transform: uppercase;
 }
 .copyright a {
@@ -1765,7 +1774,7 @@ be set to display none.
 button, input, textarea {
   border: 2px solid #f5f5f5;
   line-height: normal;
-  min-width: 100%;
+  width: 100%;
   height: 45px;
   padding: 12px;
   margin-bottom: 1em;
@@ -1787,11 +1796,46 @@ textarea {
   letter-spacing: 0.06em;
   padding: 0.65em 2.1em;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   text-shadow: none;
 }
 .btn:hover {
   background-color: #efc75e;
   border-color: #efc75e;
   color: #fff;
+}
+
+.form-subscribe {
+  background: #324d5c;
+  padding: 3.22581% 0;
+}
+.form-subscribe h6 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.35em;
+  text-transform: uppercase;
+  margin-top: -0.1em !important;
+  margin-bottom: -1em;
+  width: 15.32258%;
+  float: left;
+}
+.form-subscribe h6 small {
+  color: #0a0b0a;
+  font-size: 0.61538em;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  margin-top: 0.25em;
+}
+.form-subscribe input, .form-subscribe button {
+  margin-left: 1.6129%;
+  margin-bottom: 0;
+  float: left;
+  width: 15.32258%;
+}
+.form-subscribe input {
+  width: 32.25806% !important;
+  background: #0a0b0a;
+  border: none;
+  color: #efc75e;
 }

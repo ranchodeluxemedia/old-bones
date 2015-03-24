@@ -54,5 +54,15 @@
 				</div>
 
 			</div>
-
+		<form class="form-subscribe cf" action="#">
+			<div class="wrap cf">
+				<h6 class="h3">
+					<small>subscribe to</small>
+					mailing list
+				</h6>
+				<input type="text" name="name" placeholder="Your Name">
+				<input type="email" name="email" placeholder="Your Email">
+				<button type="submit" class="btn">Join</button>
+			</div>
+		</form>
 <?php get_footer(); ?>
