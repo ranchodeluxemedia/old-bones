@@ -1,0 +1,29 @@
+button, input {
+  border: 2px solid $site-offwhite;
+  line-height: normal;
+  min-width: 100%;
+  height: 45px;
+  padding: 12px;
+  margin-bottom: 1em;
+}
+.btn {
+    border: 2px solid $site-blue;
+    color: $site-blue;
+    display: inline-block;
+    font-family: $headings-font;
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.06em;
+    padding: 0.65em 2.1em;
+    text-transform: uppercase;
+    text-align: right;
+    text-shadow: none;
+    &:hover {
+        background-color: $site-yellow; //rgba(255, 255, 255, 0.1);
+        border-color: $site-yellow;
+        color: #fff;
+    }
+}
+

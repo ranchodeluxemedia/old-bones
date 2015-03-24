@@ -7,7 +7,7 @@ using some of the HTML5 Boilerplate's recommended markup and setup.
 It's constantly growing so be sure to check back often if you are a
 frequent user. I'm always open to contribution. :)
 
-Designed by **Eddie Machado**: http://themble.com/bones
+Designed by **Eddie Machado**: http://themble.com/base
 
 Special Thanks to:
 * Paul Irish & the HTML5 Boilerplate
@@ -17,7 +17,7 @@ Special Thanks to:
 * and several other developers. :)
 
 Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
+https://github.com/eddiemachado/base/issues
 
 
 ## License

@@ -4,7 +4,7 @@ This theme is meant to make development easier & take
 advantage of modern web development & design techniques.
 For more information, please visit:
 
-http://themble.com/bones/
+http://themble.com/base/
 
 Author: Eddie Machado
 
@@ -112,13 +112,13 @@ Author: Eddie Machado
 - removed DOMAssistant for ancient IE users
 - removed flowplayer folder (lighten the load)
 - remove ie folder for IE scripts that are now gone
-- moved translation function to bones.php
+- moved translation function to base.php
 - removed overflow: hidden from some comment styles
 - cleaned up head with more removals
-- moved related posts & page navi plugin to bones.php
+- moved related posts & page navi plugin to base.php
 - removing wp version from rss feed
 - removing useless wordpress dashboard widgets
-- organizing bones & functions for simplicity
+- organizing base & functions for simplicity
 - removed analytics
 - added auto hyphens to normalize.css (http://blog.fontdeck.com/post/9037028497/hyphens)
 - removed the custom header image support
@@ -163,14 +163,14 @@ Author: Eddie Machado
 - changed name of default stylesheet to default so it's easier to
 	debug. (having two stylesheets named style is confusing)
 - added clearing class to #inner-header and #inner-footer
-- added bones body class depending on what browser
+- added base body class depending on what browser
 - changed the_author to the_author_posts_link in single.php and archive.php
 - changed the_author to the_author_posts_link in single-custom_type.php
 - added custom taxonomy template
 - added browser classes to style.css
 - removed lazy load (sorry, it sucked)
 - added twitter and facebook user profiles
-- added post formats to bones.php core
+- added post formats to base.php core
 - fixed menu system (thanks to Dom & Mattias)
 - added categories & tag info for custom post types
 - adding standard categories & tags to custom post type example
@@ -189,7 +189,7 @@ Author: Eddie Machado
 - bloginfo('url') in header replaced with echo home_url()
 - using get_template_directory_uri() instead of bloginfo('template_directory')
 - using get_the_author_meta('display_name') instead of deprecated function
-- fixed error in bones.php for menu fallback **thanks Mark**
+- fixed error in base.php for menu fallback **thanks Mark**
 - creating thumbnail fallback functions
 - added header.js and moved modernizr & imgsizer in that file
 - added lazy load jquery plugin
@@ -216,9 +216,9 @@ Author: Eddie Machado
 
 **v1.04**
 - moved the custom script call and pngfix to the footer
-	from the bones file so it's easier to see what's being
+	from the base file so it's easier to see what's being
 	called.
-- moved apple-touch-icon.png to the library/images folder so
+- moved apple-touch-icon.png to the assets/images folder so
 	file locations are consistent.
 - added a log file to keep track of changes
 - fixed html5 video functionality & fallback (w00t!)
