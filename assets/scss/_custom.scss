@@ -30,37 +30,4 @@ textarea {
     }
 }
 
-.form-subscribe {
-    background: $site-teal;
-    padding: 3.22581% 0;
-    h6 {
-        color: #fff;
-        font-weight: 700;
-        font-size: 1.35em;
-        text-transform: uppercase;
-        margin-top: -0.1em !important;
-        margin-bottom: -1em;
-        width: 15.32258%;
-        float: left;
-        small {
-            color: $site-black;
-            font-size: 0.61538em;
-            font-weight: 400;
-            line-height: 1em;
-            display: block;
-            margin-top: 0.25em;
-        }
-    }
-    input, button {
-        margin-left: 1.6129%;
-        margin-bottom: 0;
-        float: left;
-        width: 15.32258%;
-    }
-    input {
-        width: 32.25806% !important;
-        background: $site-black;
-        border: none;
-        color: $site-yellow;
-    }
-}
+

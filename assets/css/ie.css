@@ -612,6 +612,41 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
+.form-subscribe {
+  background: #324d5c;
+  padding: 3.22581% 0;
+}
+.form-subscribe h6 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.35em;
+  text-transform: uppercase;
+  margin-top: -0.1em !important;
+  margin-bottom: -1em;
+  width: 15.32258%;
+  float: left;
+}
+.form-subscribe h6 small {
+  color: #0a0b0a;
+  font-size: 0.61538em;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  margin-top: 0.25em;
+}
+.form-subscribe input, .form-subscribe button {
+  margin-left: 1.6129%;
+  margin-bottom: 0;
+  float: left;
+  width: 15.32258%;
+}
+.form-subscribe input {
+  width: 32.25806%;
+  background: #0a0b0a;
+  border: none;
+  color: #efc75e;
+}
+
 /******************************************************************
 Site Name: 
 Author: 
