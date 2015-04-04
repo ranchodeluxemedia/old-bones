@@ -43,7 +43,9 @@ require_once( 'assets/admin.php' ); // this comes turned off by default
 4. assets/translation/translation.php
 	- adding support for other languages
 */
-// require_once( 'assets/translation/translation.php' ); // this comes turned off by default
+
+// Autoload Composer packages
+require('lib/vendor/autoload.php');
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
